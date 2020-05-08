@@ -1,0 +1,186 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #2F2A41;
+  color: #FFFFFF;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-wrapper{
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #312C44;
+}
+.nav{
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.nav-item{
+  padding: 18px 36px 18px 36px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+.hero{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-image: url("selfie.png") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border: 10px solid #cccccc;
+}
+
+.header-title{
+  padding-top: 50px;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.header-subtitle{
+  padding-top: 20px;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.header-subtitle2{
+  padding-top: 20px;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+
+.white-section{
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-section .avatar{
+  max-width: 100px;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+.white-section-title1, .white-section-title2, .white-section-title3{
+  color: black;
+  font-size: 34px;
+  font-weight: 800;
+}
+.white-section-title3{
+  padding-top: 10px;
+}
+
+.projects-header{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #312D45;
+}
+
+.projects-text{
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.projects-list{
+  padding-top: 100px;
+}
+
+.card{
+  width: 550px;
+  height: 300px;
+  border-radius: 100px;
+}
+.card-1{
+  background-color: #02A4FF;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.card-2{
+  background-color: #F7BD64;
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+.card-3{
+  background-color: #EA5E93;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+
+.card-4{
+  background-color: #8C84DE;
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+
+.contact{
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #312D45;
+  padding-top: 100px;
+}
+
+.contact-title{
+  padding-top: 20px;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+
+.contact-subtitle{
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.contact-email{
+  padding-top: 70px;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.social{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkedin-link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.medium-link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
